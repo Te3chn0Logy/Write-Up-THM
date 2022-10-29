@@ -4,4 +4,4 @@
 
 | *No.* | *Name Machine* | *OS* | *Level* |
 | ------- | ---------------- | ------ | --------- |
-| 1.      | [pickle rick](Write-Up-THM/pickle rick/README.md)     | Linux  | Easy      |
+| 1.      | [pickle rick]()     | Linux  | Easy      |
