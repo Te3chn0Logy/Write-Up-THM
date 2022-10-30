@@ -39,12 +39,12 @@ See that we have a picture to upload and see what's in it !!
 to find out what is in it finds use tool name "***Steghide***"
 
 ```bash
-$ls                                            ✔  08:51:29   
+$ls                                             
 white_rabbit_1.jpg                                                      
-$steghide extract -sf white_rabbit_1.jpg       ✔  08:51:30   
+$steghide extract -sf white_rabbit_1.jpg     
 Enter passphrase: 
 wrote extracted data to "hint.txt".                                                             
-$cat hint.txt                                  ✔  08:51:37   
+$cat hint.txt                                  
 follow the r a b b i t   
 ```
 
@@ -86,7 +86,7 @@ We found a username and password ,Could be for ssh .
 * We have access to the target machine with user "Alice":
 
 ```bash
-$ssh alice@10.10.239.191           ✔  1m 29s    08:51:41   
+$ssh alice@10.10.239.191          
 The authenticity of host '10.10.239.191 (10.10.239.191)' can't be established.
 ED25519 key fingerprint is SHA256:Q8PPqQyrfXMAZkq45693yD4CmWAYp5GOINbxYqTRedo.
 This key is not known by any other names
